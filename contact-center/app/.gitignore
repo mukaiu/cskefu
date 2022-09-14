@@ -1,15 +1,9 @@
 # dev profile
 src/main/resources/application-dev.properties
 
-# ignore channel views within plugins
-src/main/resources/templates/admin/channel/*
-!src/main/resources/templates/admin/channel/im
-
 # ignore app views within plugins
 src/main/resources/templates/apps/callout
-src/main/resources/templates/apps/chatbot
 src/main/resources/templates/apps/callcenter
 
-# ignore system views for chatbot
-src/main/resources/templates/admin/system/chatbot
+# ignore logs
 logs/
